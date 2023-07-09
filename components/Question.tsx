@@ -34,7 +34,7 @@ export default function Question({
             animate={{ scaleY: 1, originY: 0 }}
             exit={{ scaleY: 0, originY: 0 }}
           >
-            <p className="pt-4 text-gray text-[12px] mx-auto md:mx-0 max-w-[350px]">{answer}</p>
+            <p className="pt-4 text-gray text-[12px] mx-auto md:mx-0 max-w-[260px]">{answer}</p>
           </m.div>
         )}
       </AnimatePresence>
