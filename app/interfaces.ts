@@ -1,16 +1,16 @@
-export type QuestionProps = {
+export interface QuestionProps {
     question: string;
     answer: string;
 }
 
-export type ImageProps = {
+export interface ImageProps {
     desktopSrc: string;
     mobileSrc: string;
     alt: string;
     box: string;
 }
 
-export type FAQProps = {
+export interface FAQProps {
     question: string;
     answer: string;
     isActive: string;

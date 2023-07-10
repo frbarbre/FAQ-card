@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { FAQProps } from "@/app/types";
+import { FAQProps } from "@/app/interfaces";
 import { motion as m, AnimatePresence } from "framer-motion";
 
 export default function Question({
@@ -34,7 +34,9 @@ export default function Question({
             animate={{ scaleY: 1, originY: 0 }}
             exit={{ scaleY: 0, originY: 0 }}
           >
-            <p className="pt-4 text-gray text-[12px] mx-auto md:mx-0 max-w-[260px]">{answer}</p>
+            <p className="pt-4 text-gray text-[12px] mx-auto md:mx-0 max-w-[260px]">
+              {answer}
+            </p>
           </m.div>
         )}
       </AnimatePresence>

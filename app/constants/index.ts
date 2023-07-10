@@ -1,4 +1,4 @@
-import { QuestionProps } from "../types" 
+import { QuestionProps } from "../interfaces" 
 
 export const questions : QuestionProps[] = [
     {
